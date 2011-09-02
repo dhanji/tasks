@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Questrial", sans-serif;
+  background: rgb(212, 213, 206);
+}
+
+h1 {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+  margin: 14px 0 0 22px;
+  font-size: 28px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 38px;
+  left: 200px;
+  height: 50px;
+  background: rgba(200, 200, 194, 1.0);
+  -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+}
+
+#main {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+#main article.card {
+  padding: 34px;
+  width: 350px;
+  height: 340px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+
+  margin: 0 auto;
+}
+
+#main article.card .lineItem:first-child {
+  border-top: none;
+}
+
+#main article.card .lineItem {
+  width: 340px;
+  height: 24px;
+  border: none;
+  border-top: 1px dotted #999;
+  outline: none;
+  padding: 8px 0;
+}
